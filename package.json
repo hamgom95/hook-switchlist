@@ -1,0 +1,35 @@
+{
+    "name": "@hamgom95/hook-switchlist",
+    "version": "1.0.0",
+    "description": "react hook for used/unused switchlist",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md index.js > README.md",
+        "format": "prettier --write --tab-width 4 \"**/*.js\"",
+        "prepublish": "npm run format && npm run build:readme",
+        "precommit": "npm run prepublish"
+    },
+    "author": {
+        "name": "Kevin Thomas",
+        "email": "hamgom95@gmail.com"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "husky": "^1.3.1",
+        "mocha": "^5.2.0",
+        "prettier": "^1.16.4"
+    },
+    "keywords": [
+        "react",
+        "hooks"
+    ],
+    "license": "ISC",
+    "dependencies": {
+        "react": "16.7.0-alpha.0"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ]
+}
