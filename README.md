@@ -1,12 +1,12 @@
-# @hamgom95/hook-switchlist
+## @hamgom95/hook-switchlist
 
 React hook to manage used/unused list.
 
-## API Documentation
+### API Documentation
 
 <a name="useSwitchList"></a>
 
-### useSwitchList(initUsed, initUnused) ⇒
+#### useSwitchList(initUsed, initUnused) ⇒
 Hook to move item between used / unused list.
 
 **Kind**: global function  
